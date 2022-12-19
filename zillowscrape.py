@@ -25,7 +25,7 @@ home_types = ["Houses", "Townhomes"]
 # Iterate through the home types
 for home_type in home_types:
   key ='Yourkey'
-  search_str = '23832' + ', ' + 'VA'
+  search_str = zipcode + ', ' + state
   url = "https://zillow-com1.p.rapidapi.com/propertyExtendedSearch"
   querystring = {"location":search_str,
                "status_type":"ForRent",
