@@ -10,7 +10,7 @@ This code connects to an api through the RapidAPI marketplace that retrieves dat
 - Google Colab
 
 ## How to use:
-- Paste the code into a new google Colab workbook.
+- Use Git to clone the repo.
 - Obtain an API key from https://rapidapi.com/apimaker/api/zillow-com1/ by signing up for a RapidAPI account.
 - Replace 'Yourkey' on line 24 with your API key.
 - Run the code in a Python environment and enter an address when prompted. The zip code and state of the address will be extracted and used to search for homes in the area.
