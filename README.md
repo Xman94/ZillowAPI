@@ -12,7 +12,7 @@ This code connects to an api through the RapidAPI marketplace that retrieves dat
 ## How to use:
 - Use Git to clone the repo.
 - Obtain an API key from https://rapidapi.com/apimaker/api/zillow-com1/ by signing up for a RapidAPI account.
-- Replace 'Yourkey' on line 24 with your API key.
+- Replace 'Yourkey' on line 37 with your API key.
 - Run the code in a Python environment and enter an address when prompted. The zip code and state of the address will be extracted and used to search for homes in the area.
 - The code will retrieve data on homes for rent and store it in a Pandas dataframe. The data includes details such as the property address, number of bedrooms and bathrooms, square footage, and price.
 - The data will be saved to a CSV file in the current working directory.
