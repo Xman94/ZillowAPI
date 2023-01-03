@@ -34,7 +34,7 @@ for home_type in home_types:
   for price_range in price_ranges:
     time.sleep(1)
     min_price, max_price = price_range
-    key ='46513c8146msh5354f58cab06275p1ac1dcjsnd5b55f931f6f'
+    key ='Your Key'
     search_str = zipcode + ', ' + state
     url = "https://zillow-com1.p.rapidapi.com/propertyExtendedSearch"
     querystring = {"location":search_str,
